@@ -1,0 +1,4 @@
+/Users/lesion/Documents/JLXMFunSDK/JLXMFunSDK/JLXMFunSDK/Supporting/FunSDK.framework filter=lfs diff=lfs merge=lfs -text
+/Users/lesion/Documents/JLXMFunSDK/JLXMFunSDK/JLXMFunSDK/Supporting/XMNetInterface.framework filter=lfs diff=lfs merge=lfs -text
+/Users/lesion/Documents/JLXMFunSDK/JLXMFunSDK/JLXMFunSDK/Supporting/libstdc++.6.0.9.tbd filter=lfs diff=lfs merge=lfs -text
+/Users/lesion/Documents/JLXMFunSDK/JLXMFunSDK/JLXMFunSDK/Supporting/libzbar.a filter=lfs diff=lfs merge=lfs -text
