@@ -7,8 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D71B6D42A5FBF8900C8FA87 /* JLXMTestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B6D32A5FBF8900C8FA87 /* JLXMTestTool.m */; };
-		3DB2EB922A5FBB97003EF7F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2EB912A5FBB97003EF7F6 /* AppDelegate.m */; };
+		3D71B6D42A5FBF8900C8FA87 /* JLXMDeviceTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B6D32A5FBF8900C8FA87 /* JLXMDeviceTool.mm */; };
+		3D71B7132A5FF78100C8FA87 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B70F2A5FF78100C8FA87 /* libzbar.a */; };
+		3D71B7142A5FF78100C8FA87 /* XMNetInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7102A5FF78100C8FA87 /* XMNetInterface.framework */; };
+		3D71B7152A5FF78100C8FA87 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7112A5FF78100C8FA87 /* libstdc++.6.0.9.tbd */; };
+		3D71B7162A5FF78100C8FA87 /* FunSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7122A5FF78100C8FA87 /* FunSDK.framework */; };
+		3D71B7182A5FF79600C8FA87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7172A5FF79600C8FA87 /* UIKit.framework */; };
+		3D71B71A2A5FF79B00C8FA87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7192A5FF79B00C8FA87 /* AVFoundation.framework */; };
+		3D71B71C2A5FF7A200C8FA87 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B71B2A5FF7A200C8FA87 /* OpenAL.framework */; };
+		3D71B71E2A5FF7A600C8FA87 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B71D2A5FF7A600C8FA87 /* OpenGLES.framework */; };
+		3D71B7202A5FF7AE00C8FA87 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B71F2A5FF7AE00C8FA87 /* GLKit.framework */; };
+		3D71B7222A5FF7B300C8FA87 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7212A5FF7B300C8FA87 /* VideoToolbox.framework */; };
+		3D71B7242A5FF7BC00C8FA87 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7232A5FF7BC00C8FA87 /* MediaPlayer.framework */; };
+		3D71B7262A5FF7C100C8FA87 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7252A5FF7C100C8FA87 /* CoreMedia.framework */; };
+		3D71B7282A5FF7C600C8FA87 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7272A5FF7C600C8FA87 /* AudioToolbox.framework */; };
+		3D71B72A2A5FF7CF00C8FA87 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7292A5FF7CF00C8FA87 /* UserNotifications.framework */; };
+		3D71B72C2A5FF7D300C8FA87 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B72B2A5FF7D300C8FA87 /* AssetsLibrary.framework */; };
+		3D71B72E2A5FF7D900C8FA87 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B72D2A5FF7D900C8FA87 /* AVKit.framework */; };
+		3D71B7302A5FF7E300C8FA87 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B72F2A5FF7E300C8FA87 /* libresolv.tbd */; };
+		3D71B7322A5FF7E800C8FA87 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7312A5FF7E800C8FA87 /* libbz2.tbd */; };
+		3D71B7342A5FF7EF00C8FA87 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7332A5FF7EF00C8FA87 /* libiconv.tbd */; };
+		3D71B7362A5FF7F600C8FA87 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7352A5FF7F600C8FA87 /* libc.tbd */; };
+		3D71B7382A5FF7FC00C8FA87 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7372A5FF7FC00C8FA87 /* libz.tbd */; };
+		3D71B73C2A5FF9D900C8FA87 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B73B2A5FF9D900C8FA87 /* NSString+Path.m */; };
+		3DB2EB922A5FBB97003EF7F6 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2EB912A5FBB97003EF7F6 /* AppDelegate.mm */; };
 		3DB2EB952A5FBB97003EF7F6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2EB942A5FBB97003EF7F6 /* SceneDelegate.m */; };
 		3DB2EB982A5FBB97003EF7F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2EB972A5FBB97003EF7F6 /* ViewController.m */; };
 		3DB2EB9B2A5FBB97003EF7F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB2EB992A5FBB97003EF7F6 /* Main.storyboard */; };
@@ -38,11 +60,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D71B6D22A5FBF8900C8FA87 /* JLXMTestTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLXMTestTool.h; sourceTree = "<group>"; };
-		3D71B6D32A5FBF8900C8FA87 /* JLXMTestTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLXMTestTool.m; sourceTree = "<group>"; };
+		3D71B6D22A5FBF8900C8FA87 /* JLXMDeviceTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLXMDeviceTool.h; sourceTree = "<group>"; };
+		3D71B6D32A5FBF8900C8FA87 /* JLXMDeviceTool.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JLXMDeviceTool.mm; sourceTree = "<group>"; };
+		3D71B70F2A5FF78100C8FA87 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzbar.a; path = JLXMFunSDK/Supporting/libzbar.a; sourceTree = "<group>"; };
+		3D71B7102A5FF78100C8FA87 /* XMNetInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMNetInterface.framework; path = JLXMFunSDK/Supporting/XMNetInterface.framework; sourceTree = "<group>"; };
+		3D71B7112A5FF78100C8FA87 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "JLXMFunSDK/Supporting/libstdc++.6.0.9.tbd"; sourceTree = "<group>"; };
+		3D71B7122A5FF78100C8FA87 /* FunSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FunSDK.framework; path = JLXMFunSDK/Supporting/FunSDK.framework; sourceTree = "<group>"; };
+		3D71B7172A5FF79600C8FA87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D71B7192A5FF79B00C8FA87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3D71B71B2A5FF7A200C8FA87 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		3D71B71D2A5FF7A600C8FA87 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3D71B71F2A5FF7AE00C8FA87 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		3D71B7212A5FF7B300C8FA87 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		3D71B7232A5FF7BC00C8FA87 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3D71B7252A5FF7C100C8FA87 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3D71B7272A5FF7C600C8FA87 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3D71B7292A5FF7CF00C8FA87 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		3D71B72B2A5FF7D300C8FA87 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3D71B72D2A5FF7D900C8FA87 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		3D71B72F2A5FF7E300C8FA87 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		3D71B7312A5FF7E800C8FA87 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		3D71B7332A5FF7EF00C8FA87 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		3D71B7352A5FF7F600C8FA87 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		3D71B7372A5FF7FC00C8FA87 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3D71B7392A5FF94000C8FA87 /* JLXMDeviceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLXMDeviceHeader.h; sourceTree = "<group>"; };
+		3D71B73A2A5FF9D900C8FA87 /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
+		3D71B73B2A5FF9D900C8FA87 /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
 		3DB2EB8D2A5FBB97003EF7F6 /* JLXMFunSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLXMFunSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB2EB902A5FBB97003EF7F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3DB2EB912A5FBB97003EF7F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DB2EB912A5FBB97003EF7F6 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		3DB2EB932A5FBB97003EF7F6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3DB2EB942A5FBB97003EF7F6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		3DB2EB962A5FBB97003EF7F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -64,6 +110,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D71B7382A5FF7FC00C8FA87 /* libz.tbd in Frameworks */,
+				3D71B7362A5FF7F600C8FA87 /* libc.tbd in Frameworks */,
+				3D71B7342A5FF7EF00C8FA87 /* libiconv.tbd in Frameworks */,
+				3D71B7322A5FF7E800C8FA87 /* libbz2.tbd in Frameworks */,
+				3D71B7302A5FF7E300C8FA87 /* libresolv.tbd in Frameworks */,
+				3D71B72E2A5FF7D900C8FA87 /* AVKit.framework in Frameworks */,
+				3D71B72C2A5FF7D300C8FA87 /* AssetsLibrary.framework in Frameworks */,
+				3D71B72A2A5FF7CF00C8FA87 /* UserNotifications.framework in Frameworks */,
+				3D71B7282A5FF7C600C8FA87 /* AudioToolbox.framework in Frameworks */,
+				3D71B7262A5FF7C100C8FA87 /* CoreMedia.framework in Frameworks */,
+				3D71B7242A5FF7BC00C8FA87 /* MediaPlayer.framework in Frameworks */,
+				3D71B7222A5FF7B300C8FA87 /* VideoToolbox.framework in Frameworks */,
+				3D71B7202A5FF7AE00C8FA87 /* GLKit.framework in Frameworks */,
+				3D71B71E2A5FF7A600C8FA87 /* OpenGLES.framework in Frameworks */,
+				3D71B71C2A5FF7A200C8FA87 /* OpenAL.framework in Frameworks */,
+				3D71B71A2A5FF79B00C8FA87 /* AVFoundation.framework in Frameworks */,
+				3D71B7182A5FF79600C8FA87 /* UIKit.framework in Frameworks */,
+				3D71B7132A5FF78100C8FA87 /* libzbar.a in Frameworks */,
+				3D71B7142A5FF78100C8FA87 /* XMNetInterface.framework in Frameworks */,
+				3D71B7152A5FF78100C8FA87 /* libstdc++.6.0.9.tbd in Frameworks */,
+				3D71B7162A5FF78100C8FA87 /* FunSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +154,41 @@
 		3D71B6D12A5FBF5100C8FA87 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3D71B6D22A5FBF8900C8FA87 /* JLXMTestTool.h */,
-				3D71B6D32A5FBF8900C8FA87 /* JLXMTestTool.m */,
+				3D71B6D22A5FBF8900C8FA87 /* JLXMDeviceTool.h */,
+				3D71B6D32A5FBF8900C8FA87 /* JLXMDeviceTool.mm */,
+				3D71B7392A5FF94000C8FA87 /* JLXMDeviceHeader.h */,
+				3D71B73A2A5FF9D900C8FA87 /* NSString+Path.h */,
+				3D71B73B2A5FF9D900C8FA87 /* NSString+Path.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		3D71B70E2A5FF78100C8FA87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D71B7372A5FF7FC00C8FA87 /* libz.tbd */,
+				3D71B7352A5FF7F600C8FA87 /* libc.tbd */,
+				3D71B7332A5FF7EF00C8FA87 /* libiconv.tbd */,
+				3D71B7312A5FF7E800C8FA87 /* libbz2.tbd */,
+				3D71B72F2A5FF7E300C8FA87 /* libresolv.tbd */,
+				3D71B72D2A5FF7D900C8FA87 /* AVKit.framework */,
+				3D71B72B2A5FF7D300C8FA87 /* AssetsLibrary.framework */,
+				3D71B7292A5FF7CF00C8FA87 /* UserNotifications.framework */,
+				3D71B7272A5FF7C600C8FA87 /* AudioToolbox.framework */,
+				3D71B7252A5FF7C100C8FA87 /* CoreMedia.framework */,
+				3D71B7232A5FF7BC00C8FA87 /* MediaPlayer.framework */,
+				3D71B7212A5FF7B300C8FA87 /* VideoToolbox.framework */,
+				3D71B71F2A5FF7AE00C8FA87 /* GLKit.framework */,
+				3D71B71D2A5FF7A600C8FA87 /* OpenGLES.framework */,
+				3D71B71B2A5FF7A200C8FA87 /* OpenAL.framework */,
+				3D71B7192A5FF79B00C8FA87 /* AVFoundation.framework */,
+				3D71B7172A5FF79600C8FA87 /* UIKit.framework */,
+				3D71B7122A5FF78100C8FA87 /* FunSDK.framework */,
+				3D71B7112A5FF78100C8FA87 /* libstdc++.6.0.9.tbd */,
+				3D71B70F2A5FF78100C8FA87 /* libzbar.a */,
+				3D71B7102A5FF78100C8FA87 /* XMNetInterface.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3DB2EB842A5FBB96003EF7F6 = {
@@ -100,6 +198,7 @@
 				3DB2EBAB2A5FBB97003EF7F6 /* JLXMFunSDKTests */,
 				3DB2EBB52A5FBB97003EF7F6 /* JLXMFunSDKUITests */,
 				3DB2EB8E2A5FBB97003EF7F6 /* Products */,
+				3D71B70E2A5FF78100C8FA87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,7 +217,7 @@
 			children = (
 				3D71B6D12A5FBF5100C8FA87 /* Classes */,
 				3DB2EB902A5FBB97003EF7F6 /* AppDelegate.h */,
-				3DB2EB912A5FBB97003EF7F6 /* AppDelegate.m */,
+				3DB2EB912A5FBB97003EF7F6 /* AppDelegate.mm */,
 				3DB2EB932A5FBB97003EF7F6 /* SceneDelegate.h */,
 				3DB2EB942A5FBB97003EF7F6 /* SceneDelegate.m */,
 				3DB2EB962A5FBB97003EF7F6 /* ViewController.h */,
@@ -280,10 +379,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DB2EB982A5FBB97003EF7F6 /* ViewController.m in Sources */,
-				3DB2EB922A5FBB97003EF7F6 /* AppDelegate.m in Sources */,
+				3DB2EB922A5FBB97003EF7F6 /* AppDelegate.mm in Sources */,
 				3DB2EBA32A5FBB97003EF7F6 /* main.m in Sources */,
 				3DB2EB952A5FBB97003EF7F6 /* SceneDelegate.m in Sources */,
-				3D71B6D42A5FBF8900C8FA87 /* JLXMTestTool.m in Sources */,
+				3D71B73C2A5FF9D900C8FA87 /* NSString+Path.m in Sources */,
+				3D71B6D42A5FBF8900C8FA87 /* JLXMDeviceTool.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +557,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 63SX6J8GQN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JLXMFunSDK/Supporting",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JLXMFunSDK/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -468,6 +572,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JLXMFunSDK/Supporting",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jbe-lifepro.jbelink";
@@ -488,6 +596,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 63SX6J8GQN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JLXMFunSDK/Supporting",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JLXMFunSDK/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -499,6 +611,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JLXMFunSDK/Supporting",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jbe-lifepro.jbelink";

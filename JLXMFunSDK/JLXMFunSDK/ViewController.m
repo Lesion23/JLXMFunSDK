@@ -6,7 +6,6 @@
 //
 
 #import "ViewController.h"
-#import "JLXMTestTool.h"
 
 @interface ViewController ()
 
@@ -16,9 +15,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    JLXMTestTool *testTool = [[JLXMTestTool alloc] init];
-    testTool.testTool;
 }
 
 
