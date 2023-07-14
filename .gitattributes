@@ -1,2 +1,2 @@
-JLXMFunSDK/JLXMFunSDK/Supporting/FunSDK.framework/Versions/A/FunSDK filter=lfs diff=lfs merge=lfs -text
-JLXMFunSDK/JLXMFunSDK/Supporting/libzbar.a filter=lfs diff=lfs merge=lfs -text
+JLXMFunSDK/JLXMFunSDK/Classes/Supporting/library/FunSDK.framework/Versions/A/FunSDK filter=lfs diff=lfs merge=lfs -text
+JLXMFunSDK/JLXMFunSDK/Classes/Supporting/Libraries/libzbar.a filter=lfs diff=lfs merge=lfs -text
