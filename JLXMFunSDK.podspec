@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
   spec.name         = "JLXMFunSDK"
   spec.version      = "0.0.2"
-  spec.summary      = "雄迈SDK组件"
+  spec.summary      = "This is the Swift package of FunSDK."
   spec.description  = <<-DESC
-  This is the Swift package of FunSDK.
+  雄迈SDK组件，方便项目解耦
   pod 'JLXMFunSDK'
                    DESC
 
@@ -22,3 +22,4 @@ Pod::Spec.new do |spec|
   # spec.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO','BUILD_ACTIVE_ARCHITURE_ONLY'=>'YES'}
 
 end
+
