@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = ['JLXMFunSDK/JLXMFunSDK/Classes/Supporting/library/*.framework']
   spec.vendored_libraries = ['JLXMFunSDK/JLXMFunSDK/Classes/Supporting/Libraries/libstdc++.6.0.9.tbd', 'JLXMFunSDK/JLXMFunSDK/Classes/Supporting/Libraries/libzbar.a']
   spec.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
-  spec.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO','BUILD_ACTIVE_ARCHITURE_ONLY'=>'YES'}
+  spec.pod_target_xcconfig = {'VALID_ARCHS' => 'x86_64 armv7 arm64','ENABLE_BITCODE' => 'NO','BUILD_ACTIVE_ARCHITURE_ONLY'=>'YES'}
 
 end
 
