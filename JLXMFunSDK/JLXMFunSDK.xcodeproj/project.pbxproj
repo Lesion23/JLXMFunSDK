@@ -26,6 +26,10 @@
 		3D71B7362A5FF7F600C8FA87 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7352A5FF7F600C8FA87 /* libc.tbd */; };
 		3D71B7382A5FF7FC00C8FA87 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7372A5FF7FC00C8FA87 /* libz.tbd */; };
 		3D71B73C2A5FF9D900C8FA87 /* NSString+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B73B2A5FF9D900C8FA87 /* NSString+Path.m */; };
+		3D71B73F2A60DE3400C8FA87 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B73D2A60DE3300C8FA87 /* libstdc++.6.0.9.tbd */; };
+		3D71B7402A60DE3400C8FA87 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B73E2A60DE3400C8FA87 /* libzbar.a */; };
+		3D71B7432A60DE3E00C8FA87 /* XMNetInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7412A60DE3E00C8FA87 /* XMNetInterface.framework */; };
+		3D71B7442A60DE3E00C8FA87 /* FunSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7422A60DE3E00C8FA87 /* FunSDK.framework */; };
 		3DB2EB922A5FBB97003EF7F6 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2EB912A5FBB97003EF7F6 /* AppDelegate.mm */; };
 		3DB2EB952A5FBB97003EF7F6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2EB942A5FBB97003EF7F6 /* SceneDelegate.m */; };
 		3DB2EB982A5FBB97003EF7F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2EB972A5FBB97003EF7F6 /* ViewController.m */; };
@@ -82,6 +86,10 @@
 		3D71B7392A5FF94000C8FA87 /* JLXMDeviceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLXMDeviceHeader.h; sourceTree = "<group>"; };
 		3D71B73A2A5FF9D900C8FA87 /* NSString+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Path.h"; sourceTree = "<group>"; };
 		3D71B73B2A5FF9D900C8FA87 /* NSString+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Path.m"; sourceTree = "<group>"; };
+		3D71B73D2A60DE3300C8FA87 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "JLXMFunSDK/Classes/Supporting/Libraries/libstdc++.6.0.9.tbd"; sourceTree = "<group>"; };
+		3D71B73E2A60DE3400C8FA87 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzbar.a; path = JLXMFunSDK/Classes/Supporting/Libraries/libzbar.a; sourceTree = "<group>"; };
+		3D71B7412A60DE3E00C8FA87 /* XMNetInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMNetInterface.framework; path = JLXMFunSDK/Classes/Supporting/library/XMNetInterface.framework; sourceTree = "<group>"; };
+		3D71B7422A60DE3E00C8FA87 /* FunSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FunSDK.framework; path = JLXMFunSDK/Classes/Supporting/library/FunSDK.framework; sourceTree = "<group>"; };
 		3DB2EB8D2A5FBB97003EF7F6 /* JLXMFunSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLXMFunSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB2EB902A5FBB97003EF7F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DB2EB912A5FBB97003EF7F6 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -106,6 +114,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D71B7432A60DE3E00C8FA87 /* XMNetInterface.framework in Frameworks */,
+				3D71B7442A60DE3E00C8FA87 /* FunSDK.framework in Frameworks */,
+				3D71B73F2A60DE3400C8FA87 /* libstdc++.6.0.9.tbd in Frameworks */,
+				3D71B7402A60DE3400C8FA87 /* libzbar.a in Frameworks */,
 				3D71B7382A5FF7FC00C8FA87 /* libz.tbd in Frameworks */,
 				3D71B7362A5FF7F600C8FA87 /* libc.tbd in Frameworks */,
 				3D71B7342A5FF7EF00C8FA87 /* libiconv.tbd in Frameworks */,
@@ -158,26 +170,30 @@
 		3D71B70E2A5FF78100C8FA87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3D71B7372A5FF7FC00C8FA87 /* libz.tbd */,
+				3D71B72B2A5FF7D300C8FA87 /* AssetsLibrary.framework */,
+				3D71B7272A5FF7C600C8FA87 /* AudioToolbox.framework */,
+				3D71B7192A5FF79B00C8FA87 /* AVFoundation.framework */,
+				3D71B72D2A5FF7D900C8FA87 /* AVKit.framework */,
+				3D71B7252A5FF7C100C8FA87 /* CoreMedia.framework */,
+				3D71B7422A60DE3E00C8FA87 /* FunSDK.framework */,
+				3D71B7122A5FF78100C8FA87 /* FunSDK.framework */,
+				3D71B71F2A5FF7AE00C8FA87 /* GLKit.framework */,
+				3D71B7312A5FF7E800C8FA87 /* libbz2.tbd */,
 				3D71B7352A5FF7F600C8FA87 /* libc.tbd */,
 				3D71B7332A5FF7EF00C8FA87 /* libiconv.tbd */,
-				3D71B7312A5FF7E800C8FA87 /* libbz2.tbd */,
 				3D71B72F2A5FF7E300C8FA87 /* libresolv.tbd */,
-				3D71B72D2A5FF7D900C8FA87 /* AVKit.framework */,
-				3D71B72B2A5FF7D300C8FA87 /* AssetsLibrary.framework */,
-				3D71B7292A5FF7CF00C8FA87 /* UserNotifications.framework */,
-				3D71B7272A5FF7C600C8FA87 /* AudioToolbox.framework */,
-				3D71B7252A5FF7C100C8FA87 /* CoreMedia.framework */,
-				3D71B7232A5FF7BC00C8FA87 /* MediaPlayer.framework */,
-				3D71B7212A5FF7B300C8FA87 /* VideoToolbox.framework */,
-				3D71B71F2A5FF7AE00C8FA87 /* GLKit.framework */,
-				3D71B71D2A5FF7A600C8FA87 /* OpenGLES.framework */,
-				3D71B71B2A5FF7A200C8FA87 /* OpenAL.framework */,
-				3D71B7192A5FF79B00C8FA87 /* AVFoundation.framework */,
-				3D71B7172A5FF79600C8FA87 /* UIKit.framework */,
-				3D71B7122A5FF78100C8FA87 /* FunSDK.framework */,
+				3D71B73D2A60DE3300C8FA87 /* libstdc++.6.0.9.tbd */,
 				3D71B7112A5FF78100C8FA87 /* libstdc++.6.0.9.tbd */,
+				3D71B7372A5FF7FC00C8FA87 /* libz.tbd */,
+				3D71B73E2A60DE3400C8FA87 /* libzbar.a */,
 				3D71B70F2A5FF78100C8FA87 /* libzbar.a */,
+				3D71B7232A5FF7BC00C8FA87 /* MediaPlayer.framework */,
+				3D71B71B2A5FF7A200C8FA87 /* OpenAL.framework */,
+				3D71B71D2A5FF7A600C8FA87 /* OpenGLES.framework */,
+				3D71B7172A5FF79600C8FA87 /* UIKit.framework */,
+				3D71B7292A5FF7CF00C8FA87 /* UserNotifications.framework */,
+				3D71B7212A5FF7B300C8FA87 /* VideoToolbox.framework */,
+				3D71B7412A60DE3E00C8FA87 /* XMNetInterface.framework */,
 				3D71B7102A5FF78100C8FA87 /* XMNetInterface.framework */,
 			);
 			name = Frameworks;
@@ -552,6 +568,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JLXMFunSDK/Supporting",
+					"$(PROJECT_DIR)/JLXMFunSDK/Classes/Supporting/library",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JLXMFunSDK/Info.plist;
@@ -568,6 +585,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JLXMFunSDK/Supporting",
+					"$(PROJECT_DIR)/JLXMFunSDK/Classes/Supporting/Libraries",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jbe-lifepro.jbelink";
@@ -591,6 +609,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JLXMFunSDK/Supporting",
+					"$(PROJECT_DIR)/JLXMFunSDK/Classes/Supporting/library",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JLXMFunSDK/Info.plist;
@@ -607,6 +626,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/JLXMFunSDK/Supporting",
+					"$(PROJECT_DIR)/JLXMFunSDK/Classes/Supporting/Libraries",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jbe-lifepro.jbelink";
