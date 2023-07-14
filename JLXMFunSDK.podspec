@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   spec.source_files  = "JLXMFunSDK/JLXMFunSDK/Classes/*.{h,m,.mm}"
   spec.frameworks = ['UIKit','AVFoundation','OpenGLES','GLKit','VideoToolbox','OpenAL','MediaPlayer','CoreMedia','AudioToolBox','UserNotifications','AssetsLibrary','AVKit',]
   spec.libraries = 'resolv','bz2','iconv','c', 'z'#'c.tbd','z.tbd',
-  spec.vendored_frameworks = ['JLXMFunSDK/JLXMFunSDK/Supporting/*.framework']
-  spec.vendored_libraries = ['JLXMFunSDK/JLXMFunSDK/Supporting/libstdc++.6.0.9.tbd','JLXMFunSDK/JLXMFunSDK/Supporting/libzbar.a']
+  # spec.vendored_frameworks = ['JLXMFunSDK/JLXMFunSDK/Supporting/*.framework']
+  # spec.vendored_libraries = ['JLXMFunSDK/JLXMFunSDK/Supporting/libstdc++.6.0.9.tbd', 'JLXMFunSDK/JLXMFunSDK/Supporting/libzbar.a']
   spec.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
   spec.pod_target_xcconfig = {'ENABLE_BITCODE' => 'NO','BUILD_ACTIVE_ARCHITURE_ONLY'=>'YES'}
 
