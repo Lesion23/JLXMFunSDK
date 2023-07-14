@@ -14,8 +14,8 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
 
   spec.source_files  = "JLXMFunSDK/JLXMFunSDK/Classes/*.{h,m,.mm}"
-  # spec.frameworks = ['UIKit','AVFoundation','OpenGLES','GLKit','VideoToolbox','OpenAL','MediaPlayer','CoreMedia','AudioToolBox','UserNotifications','AssetsLibrary','AVKit',]
-  # spec.libraries = 'resolv','bz2','iconv','c', 'z'#'c.tbd','z.tbd',
+  spec.frameworks = ['UIKit','AVFoundation','OpenGLES','GLKit','VideoToolbox','OpenAL','MediaPlayer','CoreMedia','AudioToolBox','UserNotifications','AssetsLibrary','AVKit',]
+  spec.libraries = 'resolv','bz2','iconv','c', 'z'#'c.tbd','z.tbd',
   # spec.vendored_frameworks = ['JLXMFunSDK/JLXMFunSDK/Supporting/*.framework']
   # spec.vendored_libraries = ['JLXMFunSDK/JLXMFunSDK/Supporting/libstdc++.6.0.9.tbd','JLXMFunSDK/JLXMFunSDK/Supporting/libzbar.a']
   # spec.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
