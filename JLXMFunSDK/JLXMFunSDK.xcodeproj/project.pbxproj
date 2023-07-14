@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3D71B6D42A5FBF8900C8FA87 /* JLXMDeviceTool.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D71B6D32A5FBF8900C8FA87 /* JLXMDeviceTool.mm */; };
-		3D71B7132A5FF78100C8FA87 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B70F2A5FF78100C8FA87 /* libzbar.a */; };
-		3D71B7142A5FF78100C8FA87 /* XMNetInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7102A5FF78100C8FA87 /* XMNetInterface.framework */; };
-		3D71B7152A5FF78100C8FA87 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7112A5FF78100C8FA87 /* libstdc++.6.0.9.tbd */; };
-		3D71B7162A5FF78100C8FA87 /* FunSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7122A5FF78100C8FA87 /* FunSDK.framework */; };
 		3D71B7182A5FF79600C8FA87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7172A5FF79600C8FA87 /* UIKit.framework */; };
 		3D71B71A2A5FF79B00C8FA87 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B7192A5FF79B00C8FA87 /* AVFoundation.framework */; };
 		3D71B71C2A5FF7A200C8FA87 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D71B71B2A5FF7A200C8FA87 /* OpenAL.framework */; };
@@ -127,10 +123,6 @@
 				3D71B71C2A5FF7A200C8FA87 /* OpenAL.framework in Frameworks */,
 				3D71B71A2A5FF79B00C8FA87 /* AVFoundation.framework in Frameworks */,
 				3D71B7182A5FF79600C8FA87 /* UIKit.framework in Frameworks */,
-				3D71B7132A5FF78100C8FA87 /* libzbar.a in Frameworks */,
-				3D71B7142A5FF78100C8FA87 /* XMNetInterface.framework in Frameworks */,
-				3D71B7152A5FF78100C8FA87 /* libstdc++.6.0.9.tbd in Frameworks */,
-				3D71B7162A5FF78100C8FA87 /* FunSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
